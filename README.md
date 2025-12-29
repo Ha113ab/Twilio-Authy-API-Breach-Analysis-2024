@@ -52,7 +52,45 @@ This repository contains a detailed case study and analysis of the **Twilio Auth
 ## 👨‍💻 Author  
 **Haileab Tadele Bekele**  
 Cybersecurity Student | Intrusion Detection & Analysis  
-[LinkedIn](#) | [GitHub](#)  
+[LinkedIn](
+## 🔍 Key Findings  
+- **Primary Vulnerability**: Unauthenticated API endpoint enabling phone number enumeration  
+- **Secondary Issues**: Lack of rate limiting & sensitive metadata exposure  
+- **CVSS Score**: 5.3 (Medium) – but with severe business impact  
+- **Data Exposed**: 33,420,546 records including phone numbers, account IDs, statuses, and device counts  
+
+## 🛡️ Mitigation Strategies  
+### Technical:
+- Implement strict authentication (OAuth 2.0, API keys)  
+- Enforce multi-factor rate limiting and bot detection  
+- Apply data minimization principles to API responses  
+
+### Strategic:
+- Establish an API Security Center of Excellence  
+- Adopt shift-left security practices  
+- Invest in API Security Posture Management (APM) tools  
+
+## 🧠 Tools & Frameworks Used  
+- **MITRE ATT&CK®** – Attack mapping  
+- **OWASP API Security Top 10** – Best practices  
+- **NIST SP 800-204** – Microservices security  
+- **GDPR/CCPA** – Regulatory compliance analysis  
+
+## 👨‍💻 Author  
+**Haileab Tadele Bekele**  
+Cybersecurity Student | Intrusion Detection & Analysis  
+[LinkedIn](https://www.linkedin.com/in/haileab-tadele-bekele-312063206/) | [GitHub](http://github.com/Ha113ab)  
+
+## 📚 References  
+All sources and citations are included in the full report. Key references include:
+- Security Boulevard (2024)  
+- TechCrunch (2024)  
+- MITRE ATT&CK® Framework  
+- OWASP API Security Top 10  
+- NIST SP 800-204  
+
+## 📄 License  
+This project is for educational purposes. All referenced materials belong to their respective owners.) | [GitHub](#)  
 
 ## 📚 References  
 All sources and citations are included in the full report. Key references include:
